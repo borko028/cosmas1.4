@@ -1,0 +1,17 @@
+{
+  "name": "Cosmas",
+  "version": "1.3",
+  "manifest_version": 3,
+  "chrome_url_overrides": {"newtab": "background.html"},
+  "icons": {
+    "128": "cosmas.png"
+  },
+  "description": "New-tab extension for UMN health science students",
+
+  "browser_action": {
+    "default_icon": "cosmas.png",
+    "default_title": "Cosmas",
+    "default_popup": "background.html"
+  }
+
+}

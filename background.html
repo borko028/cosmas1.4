@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href='popup.css' rel='stylesheet' type='text/css'>
+    <title>New Tab</title>
+  </head>
+  <body>
+
+    <div id="middleContentPanel1" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div>
+                    <img id="linksLogo" class="navLogos" src="links.svg"/>
+                        <div id="linksBox">
+                            <a href="https://mail.umn.edu/"><button class="resourceLinks">Email</button></a>
+                            <a href="https://ay17.moodle.umn.edu/"><button class="resourceLinks">Moodle</button></a>
+                            <a href="https://www.e-value.net/index.cfm?al=1"><button class="resourceLinks">E*Value</button></a>
+                            <a href="https://hsl.lib.umn.edu/biomed"><button class="resourceLinks">Biomedical Library</button></a>
+                            <a href="https://www.pharmacy.umn.edu/degrees-and-programs/doctor-pharmacy/current-students"><button class="resourceLinks">College Calendar</button></a>
+                            <button id="closeLinks">X</button>
+                        </div>
+                </div>
+                <div>
+                    <img id="calcsLogo" class="navLogos" src="calc.svg"/>
+                        <div id="calcsBox">
+                            <a href="https://static.heart.org/riskcalc/app/index.html#!/baseline-risk"><button class="resourceLinks">ASCVD Risk</button></a>
+                            <a href="http://www.globalrph.com/multiple_crcl.htm"><button class="resourceLinks">Creatinine Clearance</button></a>
+                            <a href="http://globalrph.com/ibw_calc.htm"><button class="resourceLinks">Ideal & Adjusted BW</button></a>
+                            <a href="http://www.globalrph.com/aminoglycosides.htm"><button class="resourceLinks">AGs/Vanco Dosing</button></a>
+                            <a href="http://www.globalrph.com/"><button class="resourceLinks">Global RPh</button></a>
+                            <button id="closeCalcs">X</button>
+                        </div>
+                </div>
+        </div>
+        <div class="col-sm-6">
+          <div id="searchBoxx">
+            <form method="GET" action="http://www.micromedexsolutions.com.ezp2.lib.umn.edu/micromedex2/librarian/CS/C99C50/ND_PR/evidencexpert/ND_P/evidencexpert/DUPLICATIONSHIELDSYNC/9F1C6D/ND_PG/evidencexpert/ND_B/evidencexpert/ND_AppProduct/evidencexpert/ND_T/evidencexpert/PFActionId/evidencexpert.DoIntegratedSearch?SearchTerm=&UserSearchTerm=&SearchFilter=filterNone&navitem=searchALL">
+              <!--http://www.google.com/search-->
+              <input id="searchBar2" class="searchy" autofocus="autofocus" type="text" name="IntSearchWordWheel_SearchTerm_index_0" placeholder="Search Micromedex..." size="75%" />
+              <input id="searchBtn2" class="searchy" type="submit" value="Search"  />
+            </form>
+            <p id="helpText">May require initial authentification</p>
+          </div>
+          <div id="searchBox">
+            <form method="GET" action="https://www-ncbi-nlm-nih-gov.ezp2.lib.umn.edu/pubmed?otool=umnbmlib">
+              <!--http://www.google.com/search-->
+              <input id="searchBar" class="searchy" autofocus="autofocus" type="text" name="term" placeholder="Search PubMed..." size="75%" />
+              <input id="searchBtn" class="searchy" type="submit" value="Search"  />
+            </form>
+            <p id="helpText">May require initial authentification</p>
+          </div>
+          <div id="searchBoxxx">
+            <form method="GET" action="https://dailymed.nlm.nih.gov/dailymed/search.cfm?">
+              <!--http://www.google.com/search-->
+              <input id="searchBar3" class="searchy" autofocus="autofocus" type="text" name="query" placeholder="Search DailyMed..." size="75%" />
+              <input id="searchBtn3" class="searchy" type="submit" value="Search"  />
+            </form>
+          </div>
+        </div>
+        <div class="col-sm-2">
+
+        </div>
+      </div>
+    </div>
+    <div id="contentPanel" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div id="quizBox">
+            <div id="quizTextBox">
+              <h3 id="bgQuizTitle">Top 200 Brand-Generic Quiz</h3>
+              <h6 id="questionCounter"></h3>
+              <div id="answerOptions"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-4">
+        <p id="support">Support: Venmo @Derek-Borkowski<p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="popup.js"></script>
+  </body>
+</html>
